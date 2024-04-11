@@ -349,11 +349,11 @@ function SandboxUI(config){
 	page.appendChild(rule_turns);
 	page.appendChild(slider_turns.dom);
 
-	// Rule: Eliminate/Reproduce how many? (1 to 12)
+	// Rule: Eliminate/Reproduce how many? (0 to 25)
 	var rule_evolution = _makeLabel("sandbox_rules_2", {x:0, y:100, w:433});
 	var slider_evolution = new Slider({
 		x:0, y:165, width:430,
-		min:1, max:10, step:1,
+		min:0, max:25, step:1,
 		message: "rules/evolution"
 	});
 	sliders.push(slider_evolution);
@@ -366,7 +366,7 @@ function SandboxUI(config){
 	page.appendChild(rule_evolution);
 	page.appendChild(slider_evolution.dom);
 
-	// Rule: Noise (0% to 50%)
+	// Rule: Noise (0% to 100%)
 	var rule_noise = _makeLabel("sandbox_rules_3", {x:0, y:225, w:433});
 	var slider_noise = new Slider({
 		x:0, y:290, width:430,
