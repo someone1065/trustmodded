@@ -359,7 +359,7 @@ function SandboxUI(config){
 	sliders.push(slider_evolution);
 	slider_evolution.slideshow = self.slideshow;
 	listen(self, "rules/evolution",function(value){
-		var words = value>1 (value>12 Words.get("sandbox_rules_2_over12") : Words.get("sandbox_rules_2")) : (value==1 ? Words.get("sandbox_rules_2_single") : Words.get("sandbox_rules_2_none")); // plural?
+		var words = value>1 ? (value>12 ? Words.get("sandbox_rules_2_over12") : Words.get("sandbox_rules_2")) : (value==1 ? Words.get("sandbox_rules_2_single") : Words.get("sandbox_rules_2_none")); // plural?
 		words = words.replace(/\[N\]/g, value+""); // replace [N] with the number value
 		rule_evolution.innerHTML = words;
 	});
