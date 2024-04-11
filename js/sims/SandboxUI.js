@@ -370,7 +370,7 @@ function SandboxUI(config){
 	var rule_noise = _makeLabel("sandbox_rules_3", {x:0, y:225, w:433});
 	var slider_noise = new Slider({
 		x:0, y:290, width:430,
-		min:0.00, max:0.25, step:0.01,
+		min:0.00, max:1.01, step:0.01,
 		message: "rules/noise"
 	});
 	sliders.push(slider_noise);
