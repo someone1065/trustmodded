@@ -451,11 +451,12 @@ s{
 .character #peep[char=pavlov]{ background-position: -630px 0; }
 .character #peep[char=random]{ background-position: -735px 0; }
 
+.narrator{ color:#7289DA; }
 .tft{ color:#4089DD; }
 .all_d{ color:#52537F; }
 .all_c{ color:#FF75FF; }
-.grudge{ color:#efc701; }
-.prober{ color:#f6b24c; }
+.grudge{ color:#EFC701; }
+.prober{ color:#F6B24C; }
 .tf2t{ color:#88A8CE; }
 .pavlov{ color:#86C448; }
 .random{ color:#FF5E5E; }
