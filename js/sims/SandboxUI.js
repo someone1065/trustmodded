@@ -143,7 +143,7 @@ function SandboxUI(config){
 		// Slider
 		(function(peepID){
 			var popSlider = new Slider({
-				x:0, y:35, width:200,
+				x:0, y:35, width:130,
 				min:0, max:25, step:1,
 				message: message,
 				onselect: function(){
@@ -162,7 +162,7 @@ function SandboxUI(config){
 		publish(message, [defaultValue]);
 
 	};
-	var xDiff = 220;
+	var xDiff = 140;
 	var yDiff = 80;
 	var yOff = 40;
 	_makePopulationControl(    0, yOff+0,       "tft",		3);
