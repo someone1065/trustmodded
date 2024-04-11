@@ -33,7 +33,7 @@ function PayoffsUI(config){
 		(function(letter,x,y){
 
 			var number = new IncDecNumber({
-				x:x, y:y, max:5, min:-5,
+				x:x, y:y, max:10, min:-10,
 				value: PD.PAYOFFS[letter],
 				onchange: function(value){
 					publish("pd/editPayoffs/"+letter,[value]);
