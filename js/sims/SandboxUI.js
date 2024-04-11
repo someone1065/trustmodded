@@ -349,7 +349,7 @@ function SandboxUI(config){
 	page.appendChild(rule_turns);
 	page.appendChild(slider_turns.dom);
 
-	// Rule: Eliminate/Reproduce how many? (0 to 25)
+	// Rule: Eliminate/Reproduce how many? (0 to 12)
 	var rule_evolution = _makeLabel("sandbox_rules_2", {x:0, y:100, w:433});
 	var slider_evolution = new Slider({
 		x:0, y:165, width:430,
